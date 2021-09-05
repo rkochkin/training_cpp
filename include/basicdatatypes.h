@@ -9,6 +9,7 @@
 namespace hackerrank {
     class BasicDataTypes : public App {
     public:
+        [[nodiscard]] std::string name() const override;
         int run() override;
     };
 }

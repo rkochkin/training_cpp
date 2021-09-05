@@ -5,8 +5,11 @@
 #ifndef TRAINING_CPP_APP_H
 #define TRAINING_CPP_APP_H
 
+#include <string>
+
 class App {
 public:
+    [[nodiscard]] virtual std::string name() const = 0;
     virtual int run() = 0;
 private:
 };

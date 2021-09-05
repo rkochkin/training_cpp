@@ -12,3 +12,6 @@ int InputAndOutput::run() {
     std::cout << a+b+c;
     return 0;
 }
+std::string InputAndOutput::name() const {
+    return "Input and Output";
+}

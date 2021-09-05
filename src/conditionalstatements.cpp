@@ -45,3 +45,6 @@ int ConditionalStatements::run() {
         std::cout << lut[n];
     return 0;
 }
+std::string ConditionalStatements::name() const {
+    return "conditional statements";
+}

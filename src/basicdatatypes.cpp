@@ -22,3 +22,6 @@ int BasicDataTypes::run() {
 
     return 0;
 }
+std::string BasicDataTypes::name() const {
+    return "Basic data types";
+}

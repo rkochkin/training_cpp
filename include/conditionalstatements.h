@@ -11,6 +11,7 @@
 namespace hackerrank {
     class ConditionalStatements : public App {
     public:
+        [[nodiscard]] std::string name() const override;
         int run() override;
 
     private:

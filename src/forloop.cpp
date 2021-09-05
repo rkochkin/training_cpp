@@ -24,3 +24,6 @@ int ForLoop::run() {
 
     return 0;
 }
+std::string ForLoop::name() const {
+    return "For loop";
+}

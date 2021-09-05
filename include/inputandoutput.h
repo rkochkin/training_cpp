@@ -10,6 +10,7 @@
 namespace hackerrank {
     class InputAndOutput : public App {
     public:
+        [[nodiscard]] std::string name() const override;
         int run() override;
     };
 }

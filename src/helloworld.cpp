@@ -10,3 +10,7 @@ int HelloWorld::run() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
+
+std::string HelloWorld::name() const {
+    return "Hello world";
+}
