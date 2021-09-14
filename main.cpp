@@ -7,6 +7,7 @@
 #include "variablesizedarrays.h"
 #include "stringstream.h"
 #include "boxit.h"
+#include "lowerboundstl.h"
 
 int main() {
     Starter starter;
@@ -18,6 +19,7 @@ int main() {
     hackerrank::VariableSizedArrays variableSizedArraysApp;
     hackerrank::StringStream stringStream;
     hackerrank::BoxIt boxIt;
+    hackerrank::LowerBoundStl lowerBoundStl;
 
     //helloWorldApp.run();
     //starter.run(inputAndOutputApp);
@@ -25,6 +27,7 @@ int main() {
     //starter.run(forLoopApp);
     //starter.run(variableSizedArraysApp);
     //starter.run(stringStream);
-    starter.run(boxIt);
+    //starter.run(boxIt);
+    starter.run(lowerBoundStl);
     return 0;
 }
