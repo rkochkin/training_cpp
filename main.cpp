@@ -8,6 +8,7 @@
 #include "stringstream.h"
 #include "boxit.h"
 #include "lowerboundstl.h"
+#include "printpretty.h"
 
 int main() {
     Starter starter;
@@ -20,6 +21,7 @@ int main() {
     hackerrank::StringStream stringStream;
     hackerrank::BoxIt boxIt;
     hackerrank::LowerBoundStl lowerBoundStl;
+    hackerrank::PrintPretty printPretty;
 
     //helloWorldApp.run();
     //starter.run(inputAndOutputApp);
@@ -28,6 +30,7 @@ int main() {
     //starter.run(variableSizedArraysApp);
     //starter.run(stringStream);
     //starter.run(boxIt);
-    starter.run(lowerBoundStl);
+    //starter.run(lowerBoundStl);
+    starter.run(printPretty);
     return 0;
 }
