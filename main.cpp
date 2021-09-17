@@ -10,6 +10,7 @@
 #include "lowerboundstl.h"
 #include "printpretty.h"
 #include "dequestl.h"
+#include "bitarray.h"
 
 int main() {
     Starter starter;
@@ -24,6 +25,7 @@ int main() {
     hackerrank::LowerBoundStl lowerBoundStl;
     hackerrank::PrintPretty printPretty;
     hackerrank::DequeStl dequeStl;
+    hackerrank::BitArray bitArray;
 
     //helloWorldApp.run();
     //starter.run(inputAndOutputApp);
@@ -34,6 +36,7 @@ int main() {
     //starter.run(boxIt);
     //starter.run(lowerBoundStl);
     //starter.run(printPretty);
-    starter.run(dequeStl);
+    //starter.run(dequeStl);
+    starter.run(bitArray);
     return 0;
 }
