@@ -11,6 +11,7 @@
 #include "printpretty.h"
 #include "dequestl.h"
 #include "bitarray.h"
+#include "magicspells.h"
 
 int main() {
     Starter starter;
@@ -26,6 +27,7 @@ int main() {
     hackerrank::PrintPretty printPretty;
     hackerrank::DequeStl dequeStl;
     hackerrank::BitArray bitArray;
+    hackerrank::MagicSpells magicSpells;
 
     //helloWorldApp.run();
     //starter.run(inputAndOutputApp);
@@ -37,6 +39,7 @@ int main() {
     //starter.run(lowerBoundStl);
     //starter.run(printPretty);
     //starter.run(dequeStl);
-    starter.run(bitArray);
+    //starter.run(bitArray);
+    starter.run(magicSpells);
     return 0;
 }
