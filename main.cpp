@@ -9,6 +9,7 @@
 #include "boxit.h"
 #include "lowerboundstl.h"
 #include "printpretty.h"
+#include "dequestl.h"
 
 int main() {
     Starter starter;
@@ -22,6 +23,7 @@ int main() {
     hackerrank::BoxIt boxIt;
     hackerrank::LowerBoundStl lowerBoundStl;
     hackerrank::PrintPretty printPretty;
+    hackerrank::DequeStl dequeStl;
 
     //helloWorldApp.run();
     //starter.run(inputAndOutputApp);
@@ -31,6 +33,7 @@ int main() {
     //starter.run(stringStream);
     //starter.run(boxIt);
     //starter.run(lowerBoundStl);
-    starter.run(printPretty);
+    //starter.run(printPretty);
+    starter.run(dequeStl);
     return 0;
 }
